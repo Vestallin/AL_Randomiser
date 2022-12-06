@@ -1,4 +1,4 @@
-# AL_Randomiser
+# Azur Lane Fleet Randomizer
 This repository is mainly for:
 - Practicing in using MongoDB and Python together
 - Entertainment of spicing up Azur Lane fleet building
