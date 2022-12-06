@@ -8,7 +8,10 @@ Author: Watcharapon Thossaruksa (Vestallin)
 This file is mainly used for those who seek thrills in building fleet(s) in Azur Lane only.
 Please do not take this seriously for building a meta fleet, you have been warned.
 
-Credit for datamined stats: https://docs.google.com/spreadsheets/d/1aK_5AtCw_DnlOMoIQjZHU2SUGboQ9VpX-7gDVRufBF0/edit#gid=1495731855
+Please run MongoDB server first before proceeding to run this file
+
+Credit for datamined stats:
+    https://docs.google.com/spreadsheets/d/1aK_5AtCw_DnlOMoIQjZHU2SUGboQ9VpX-7gDVRufBF0/edit#gid=1495731855
 
 """
 def initialize():
@@ -16,6 +19,7 @@ def initialize():
     The initializer of this program where it loads the data from a given csv file.
     Then it inserts the data from previous step into a MongoDB database to create a collection "azur"
     which will be used in randomisation.
+
     '''
     headers = []
     result = []
